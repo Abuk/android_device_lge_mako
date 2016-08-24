@@ -131,6 +131,6 @@ USE_MINIKIN := true
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
-MALLOC_IMPL := dlmalloc
+MALLOC_SVELTE := true
 
 -include vendor/lge/mako/BoardConfigVendor.mk
