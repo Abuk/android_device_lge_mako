@@ -34,6 +34,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set a proper title for kernel build
 export LOCALVERSION=-N4-revival-nougat-r01-AOSP
 
-# Jack server: force a greater maximum Java heap size
-export ANDROID_JACK_VM_ARGS="-Xmx8g -Dfile.encoding=UTF-8 -XX:+TieredCompilation"
-
